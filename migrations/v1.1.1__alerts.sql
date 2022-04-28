@@ -1,6 +1,7 @@
-use database DEV_DEMO_DB;
+use database dev_demo_db;
 CREATE SCHEMA dev_demo_schema;
-CREATE TABLE IF NOT EXISTS ALERT_TBL (
+use schema dev_demo_schema;
+CREATE TABLE IF NOT EXISTS dev_demo_db.dev_demo_schema.ALERT_TBL (
 EVENT_TIME TIMESTAMP_NTZ(9),
 COMMIT_TIME TIMESTAMP_NTZ(9),
 ALERT_RULE_ID VARCHAR(100),
