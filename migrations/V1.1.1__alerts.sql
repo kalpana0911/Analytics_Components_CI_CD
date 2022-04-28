@@ -1,4 +1,3 @@
-use database dev_demo_db;
 CREATE SCHEMA dev_demo_schema;
 use schema dev_demo_schema;
 CREATE TABLE IF NOT EXISTS dev_demo_db.dev_demo_schema.ALERT_TBL (
