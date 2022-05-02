@@ -1,5 +1,5 @@
 use schema test_demo_schema;
-CREATE TABLE IF NOT EXISTS session_tracking_test (
+CREATE TABLE IF NOT EXISTS session_tracking_test1 (
 EVENT_TIME TIMESTAMP_NTZ(9),
 COMMIT_TIME TIMESTAMP_NTZ(9),
 ALERT_RULE_ID VARCHAR(100),
