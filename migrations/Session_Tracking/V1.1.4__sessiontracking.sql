@@ -1,4 +1,4 @@
-CREATE SCHEMA test_demo_schema;
+use schema test_demo_schema;
 CREATE TABLE IF NOT EXISTS session_tracking (
 EVENT_TIME TIMESTAMP_NTZ(9),
 COMMIT_TIME TIMESTAMP_NTZ(9),
