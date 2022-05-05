@@ -1,5 +1,5 @@
-use schema ci_cd_schema;
-CREATE TABLE IF NOT EXISTS session_tracking_test1 (
+use SCHEMA ci_cd_schema;
+CREATE TABLE IF NOT EXISTS test (
 EVENT_TIME TIMESTAMP_NTZ(9),
 COMMIT_TIME TIMESTAMP_NTZ(9),
 ALERT_RULE_ID VARCHAR(100),

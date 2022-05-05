@@ -1,4 +1,4 @@
-use schema test_demo_schema;
+use schema ci_cd_schema;
 CREATE TABLE IF NOT EXISTS ALERT_TBL2 (
 EVENT_TIME TIMESTAMP_NTZ(9),
 COMMIT_TIME TIMESTAMP_NTZ(9),

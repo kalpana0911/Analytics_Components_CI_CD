@@ -1,4 +1,4 @@
-use SCHEMA test_demo_schema;
+use SCHEMA ci_cd_schema;
 CREATE TABLE IF NOT EXISTS ueba (
 EVENT_TIME TIMESTAMP_NTZ(9),
 COMMIT_TIME TIMESTAMP_NTZ(9),
